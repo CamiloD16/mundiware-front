@@ -1,0 +1,123 @@
+.orbi {
+  background-color: var(--color-6);
+  padding: 20px 0 20px 20px;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.orbi>.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.orbi .nav>.left {
+  flex-direction: column;
+  display: flex;
+}
+
+.orbi .nav .left>img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.orbi .nav .left .btns-left-orbi>button {
+  margin-right: 20px;
+  border: 1px solid var(--color-7);
+  background-color: var(--color-6);
+  color: var(--color-7);
+  padding: 5px 17px;
+  border-radius: 50px;
+  font-weight: bolder;
+}
+
+.orbi .nav .left .btns-left-orbi>button:first-child {
+  color: var(--color-0);
+  background-color: var(--color-1);
+}
+
+.orbi .nav .right>button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bolder;
+  background-color: var(--color-0);
+  margin: 15px 5px 0;
+}
+
+.orbi>.videos {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  overflow-x: auto;
+  width: 100%;
+}
+
+.orbi .videos .video {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.orbi .videos img {
+  width: 400px;
+}
+
+.orbi .videos .video>.btn-play {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orbi>.dots-orbi {
+  content: '';
+  width: 70px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.orbi .dots-orbi>.dot:first-child {
+  background-color: var(--color-0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.orbi .dots-orbi>.dot {
+  background-color: transparent;
+  border: 1px solid var(--color-0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.orbi>.text-youtube {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-0);
+}
+
+.orbi .text-youtube>img {
+  width: 40px;
+}
+
+@media screen and (min-width:800px) {
+  .orbi .nav>.right {
+    display: none;
+  }
+
+  .orbi .nav>.left {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+}

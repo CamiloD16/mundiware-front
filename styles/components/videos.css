@@ -1,0 +1,172 @@
+.videos-section {
+  background-color: var(--color-1);
+  padding: 10px;
+}
+
+.videos-section .navbar-videos>img {
+  width: 200px;
+}
+
+.videos-section .navbar-videos>.menu-navigation {
+  margin-bottom: 30px;
+}
+
+.videos-section .navbar-videos>.menu-navigation::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  border: 3px solid var(--color-0);
+  max-width: 10px;
+}
+
+.videos-section .navbar-videos .menu-navigation ul>li:first-child {
+  opacity: 1;
+  font-weight: bold;
+}
+
+.videos-section .navbar-videos .menu-navigation ul>li {
+  width: 100%;
+  opacity: 0.9;
+}
+
+.videos-section .navbar-videos .menu-navigation ul li>a {
+  width: fit-content;
+  color: var(--color-0);
+}
+
+.videos-section .container-video-related>.video {
+  margin-bottom: 25px;
+}
+
+.videos-section .container-video-related>.video,
+.videos-section .videos-related>.video {
+  background-image: url('../../assets/videos-section');
+  background-size: cover;
+  height: 300px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color-0);
+  font-weight: bolder;
+}
+
+.videos-section .videos-related {
+  justify-content: space-between;
+}
+
+.videos-section .video>img {
+  width: 50px;
+  margin: 20px;
+}
+
+.videos-section .video>h1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgb(0, 0, 0, 0.8));
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.videos-section .videos-related {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  gap: 20px;
+}
+
+.videos-section .videos-related .videos {
+  display: flex;
+}
+
+.videos-section .videos-related>.video {
+  height: 250px;
+}
+
+.videos-section .videos-related>.video:first-child {
+  background-image: url('../../assets/maroon');
+}
+
+.videos-section .videos-related>.video:nth-child(2) {
+  background-image: url('../../assets/britney');
+}
+
+.videos-section .videos-related>.video:nth-child(3) {
+  background-image: url('../../assets/lil');
+}
+
+.videos-section .videos-related>.video:nth-child(4) {
+  background-image: url('../../assets/mariah');
+}
+
+.videos-section .videos-related .video>h1 {
+  width: 100%;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.videos-section .dots-videos {
+  content: '';
+  width: 70px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.videos-section .dot:first-child {
+  background-color: var(--color-0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.videos-section .dot {
+  background-color: transparent;
+  border: 1px solid var(--color-0);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.sponsor-4 {
+  display: none;
+  padding: 100px 200px;
+  margin: 20px auto;
+}
+
+@media screen and (min-width:1000px) {
+  .videos-section .navbar-videos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .container-video-related {
+    display: flex;
+    gap: 10px;
+  }
+
+  .videos-section .videos-related {
+    display: grid;
+    width: 90%;
+    gap: 10px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: hidden;
+  }
+
+  .videos-section .container-video-related>.video {
+    height: auto;
+    width: 100%;
+  }
+
+  .videos-section .navbar-videos>img {
+    height: 80px;
+  }
+
+  .videos-section .navbar-videos .menu-navigation ul>li:first-child {
+    border-bottom: 2px solid var(--color-0);
+  }
+
+  .sponsor-4 {
+    display: block;
+  }
+
+}

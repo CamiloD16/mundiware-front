@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@import './components/navbar.css';
+@import './components/menu-navigation.css';
+@import './components/header.css';
+@import './components/categorias.css';
+@import './components/minicards-categorias.css';
+@import './components/orbi.css';
+@import './components/colunas.css';
+@import './components/videos.css';
+@import './components/contact-us.css';
+@import './components/matchs.css';
+@import './components/notice-orbi.css';
+@import './components/footer.css';
+@import './components/cultura.css';
+@import './components/publish.css';
+@import './components/copa.css';
+
+
+:root {
+  --color-0: #fff;
+  --color-1: #e2326f;
+  --color-2: #f3f3f3;
+  --color-3: #000;
+  --color-4: #f66311;
+  --color-5: #f1aa1a;
+  --color-6: #191919;
+  --color-7: #747474;
+  --color-8: #fafafa;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: var(--color-2);
+  color: var(--color-3)
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 1000px) {
+  .desktop {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .desktop {
+    display: none;
+  }
+}

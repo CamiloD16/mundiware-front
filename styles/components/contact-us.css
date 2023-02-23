@@ -1,0 +1,61 @@
+.contact-us {
+  padding: 20px;
+}
+
+.contact-us>form {
+  background-color: var(--color-2);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.contact-us form>h3 {
+  font-weight: bolder;
+}
+
+.contact-us form>h3:nth-child(2) {
+  color: var(--color-1);
+  margin-bottom: 25px;
+  margin-top: -5px;
+}
+
+.contact-us form>.checkbox {
+  display: flex;
+  gap: 20px;
+}
+
+.contact-us form .checkbox>p {
+  font-size: 12px;
+}
+
+.contact-us form .checkbox p>span {
+  color: var(--color-1);
+  font-weight: bolder;
+}
+
+.contact-us form>input {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+.contact-us form>.checkbox {
+  margin-bottom: 60px;
+}
+
+.contact-us form .checkbox>input {
+  border: 1px solid var(--color-6);
+  border-radius: 50px;
+}
+
+.contact-us form>button {
+  background-color: var(--color-1);
+  color: var(--color-0);
+  font-weight: bolder;
+  padding: 10px 30px;
+  border-radius: 50px;
+}

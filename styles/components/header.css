@@ -1,0 +1,152 @@
+.header {
+  padding: 30px 0;
+  width: min(1800px, 100%);
+  margin: 0 auto;
+}
+
+.header .advertising {
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.header .states {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.header .states .state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: bolder;
+}
+
+.header .states .state img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px solid var(--color-1);
+  object-fit: cover;
+}
+
+.header .states .state h6 {
+  opacity: 0.7;
+}
+
+.header .cover {
+  background-image: url(../../assets/portada);
+  background-size: cover;
+  color: var(--color-0);
+}
+
+.header .cover .cover-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 20px 0;
+}
+
+.header .cover .cover-btns button {
+  border: none;
+  padding: 5px 20px;
+  color: var(--color-0);
+  border-radius: 50px;
+}
+
+.header .cover .cover-btns .category {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header .cover .cover-btns .share {
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.header .cover .cover-btns .share img {
+  width: 20px;
+}
+
+.header .cover .text-cover {
+  padding: 20px 0 0;
+  width: 100%;
+  margin: 500px auto 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgb(0, 0, 0, 0.8));
+}
+
+.header .cover .text-cover .title {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.header .cover .text-cover .text-subs {
+  background-color: var(--color-0);
+  color: var(--color-3);
+  display: flex;
+  align-items: center;
+  margin: 25px auto 0;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.header .cover .text-cover .text-subs .text-sub {
+  width: 100%;
+}
+
+.header .cover .text-cover .text-subs .text-sub h6 {
+  color: var(--color-1);
+}
+
+
+@media screen and (min-width:458px) {
+  .header .states {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width:800px) {
+  .header .cover .text-cover .text-subs .text-sub {
+    width: 250px;
+  }
+
+  .header .cover .text-cover {
+    padding: 20px 80px;
+  }
+
+  .header .advertising {
+    display: none;
+  }
+
+  .header .states {
+    display: none;
+  }
+
+  .header .cover .cover-btns {
+    padding: 25px 6% 0;
+  }
+
+  .header .cover .text-cover .text-subs {
+    background-color: transparent;
+    color: var(--color-0);
+
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .header .cover .text-cover .text-subs {
+    flex-direction: row;
+  }
+
+  .text-cover .title h1 {
+    font-size: 2.5rem;
+  }
+}

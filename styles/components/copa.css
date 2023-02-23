@@ -1,0 +1,92 @@
+.copa {
+  padding: 20px 0;
+  display: none;
+  gap: 20px 5px;
+}
+
+.copa>.categorias-card {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.copa .categorias-card {
+  height: 350px;
+}
+
+.copa .categorias-card>.first {
+  background-image: url('../../assets/selecao');
+  height: auto;
+}
+
+.copa .categorias-card>.second {
+  background-image: url('../../assets/messi');
+  height: auto;
+}
+
+.copa .categorias-card>.third {
+  background-image: url('../../assets/vini');
+  height: auto;
+}
+
+.copa .categorias-card>.fourth {
+  background-image: url('../../assets/reporter');
+  height: auto;
+}
+
+.copa .categorias-card .text-information>h4 {
+  font-size: 0.7rem;
+}
+
+.copa .categorias-card .text-information>h2 {
+  font-size: 1rem;
+}
+
+.copa-img {
+  display: none;
+  margin: 0 auto;
+  width: 150px;
+}
+
+.dots-copa {
+  content: '';
+  width: 80px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+}
+
+.dots-copa>.dot:first-child {
+  background-color: var(--color-6);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dots-copa>.dot:first-child {
+  background-color: var(--color-6);
+  border: 1px solid var(--color-6);
+}
+
+.dots-copa>.dot {
+  background-color: transparent;
+  border: 1px solid var(--color-6);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width:1200px) {
+  .copa {
+    display: flex;
+  }
+
+  .dots-copa {
+    display: flex;
+  }
+
+  .copa-img {
+    display: block;
+  }
+}

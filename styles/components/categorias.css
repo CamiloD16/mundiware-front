@@ -1,0 +1,206 @@
+.categorias {
+  padding: 20px 0 20px 20px;
+}
+
+.categorias .title-btn {
+  margin: 0 auto 20px;
+  display: block;
+  background-color: var(--color-1);
+  color: var(--color-0);
+  padding: 5px 20px;
+  border: none;
+  border-radius: 50px;
+}
+
+.categorias .title-text {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.categorias .text,
+.categorias-card .text {
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+
+.categorias .category,
+.categorias-card .category {
+  border-radius: 30px;
+  padding: 10px 0 0;
+  background-image: url('../../assets/woman-vacune');
+  background-size: cover;
+  width: min(320px, 100%);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 400px;
+}
+
+.categorias .category:nth-child(2) {
+  background-image: url('../../assets/metro');
+}
+
+.categorias .category:nth-child(4) {
+  background-image: url('../../assets/stranger-things');
+  margin-bottom: 25px;
+}
+
+.categorias-card .category {
+  background-image: url('../../assets/stranger-things');
+}
+
+.categorias .category-btns button,
+.categorias-card .category-btns button {
+  border: none;
+  padding: 5px 20px;
+  color: var(--color-0);
+  border-radius: 50px;
+}
+
+.categorias .category-btns,
+.categorias-card .category-btns {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px 0;
+}
+
+.categorias .category-btns .category-btn,
+.categorias-card .category-btns .category-btn {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.categorias .category-btns .share,
+.categorias-card .category-btns .share {
+  background-color: var(--color-1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.categorias .dots-mobile,
+.category .dots-desktop {
+  content: '';
+  width: 100px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.category .dots-desktop {
+  display: none;
+}
+
+.category .dots-desktop {
+  margin: 0 25px 25px;
+}
+
+.categorias .dots-mobile .dot:first-child,
+.category .dots-desktop .dot:first-child {
+  background-color: #181818;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.category .dots-desktop .dot:first-child {
+  background-color: var(--color-2);
+  border: 1px solid var(--color-2);
+}
+
+.categorias .dots-mobile .dot,
+.categorias .dots-desktop .dot {
+  background-color: transparent;
+  border: 1px solid #181818;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.categorias .dots-desktop .dot {
+  border: 1px solid var(--color-2);
+}
+
+.categorias .category-btns .share img,
+.categorias-card .category-btns .share img {
+  width: 20px;
+}
+
+.categorias .category,
+.categorias-card .category {
+  border-radius: 20px;
+}
+
+.categorias .category .text-information,
+.categorias-card .category .text-information {
+  padding: 20px;
+  border-radius: 20px;
+  color: var(--color-0);
+}
+
+.categorias .category .text-information-dots,
+.categorias-card .category .text-information:last-child {
+  background: linear-gradient(rgba(0, 0, 0, 0.03), rgb(0, 0, 0, 0.8));
+  border-radius: 20px;
+}
+
+.categorias .categorias-scroll {
+  display: flex;
+  overflow-x: auto;
+  gap: 20px;
+  margin-bottom: 25px;
+  width: 100%;
+}
+
+.categorias-card {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.categorias .category,
+.categorias-card .category {
+  width: 100%;
+}
+
+.categorias .publicidad {
+  width: 95%;
+}
+
+@media screen and (min-width:600px) {
+  .categorias .category:first-child {
+    width: 150%;
+  }
+
+  .categorias .categoria-description-mobile {
+    display: none;
+  }
+
+  .categorias .category:nth-child(4) {
+    display: none;
+  }
+
+  .categorias .publicidad {
+    display: none;
+  }
+
+  .category .dots-desktop {
+    display: flex;
+  }
+
+  .categorias .dots-mobile {
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width:800px) {
+  .categorias-card {
+    display: none;
+  }
+
+  .copa>.categorias-card {
+    display: flex;
+  }
+}

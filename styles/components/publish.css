@@ -1,0 +1,119 @@
+.publish {
+  display: none;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+.publish>.left,
+.publish>.center,
+.publish>.right {
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.publish .left .states-desktop {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+  overflow-x: scroll;
+  margin: 0 auto;
+  padding: 20;
+  flex-direction: column;
+  width: 70%;
+  font-weight: bolder;
+}
+
+.publish .left .states-desktop .state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.publish .left .states-desktop img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  padding: 5px;
+  border: 2px solid var(--color-1);
+  object-fit: cover;
+}
+
+.publish .left .states-desktop h6 {
+  opacity: 0.7;
+}
+
+.publish .right>.matchs {
+  width: 100%;
+}
+
+.publish .right>.enquete {
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--color-0);
+  padding: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.1);
+}
+
+.publish .right .enquete>h3:first-child {
+  color: var(--color-1);
+}
+
+.publish .right .enquete>.input {
+  display: flex;
+  gap: 10px;
+}
+
+.publish .right .enquete>button {
+  background-color: var(--color-1);
+  padding: 10px 30px;
+  border-radius: 50px;
+  color: var(--color-0);
+}
+
+.publish .right .horoscopo-desktop {
+  width: 100%;
+}
+
+.publish>.categorias-card {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+.publish .categorias-card>.category {
+  background-image: url('../../assets/ludmilla');
+  background-size: 100% 100%;
+}
+
+.load-more {
+  margin: 50px auto 20px;
+  border: 1px solid var(--color-1);
+  padding: 15px 70px;
+  border-radius: 50px;
+  display: block;
+  color: var(--color-1);
+}
+
+@media screen and (min-width:1000px) {
+  .publish {
+    display: flex;
+  }
+
+  .publish .right>.enquete {
+    display: flex;
+  }
+}
