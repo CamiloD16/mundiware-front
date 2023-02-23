@@ -146,7 +146,7 @@
     flex-direction: row;
   }
 
-  .text-cover .title h1 {
+  .text-cover .title h2 {
     font-size: 2.5rem;
   }
 }

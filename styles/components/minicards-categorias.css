@@ -175,8 +175,8 @@
   width: fit-content;
 }
 
-.temperature .description-num>h1,
-.temperature-mobile .description-num>h1 {
+.temperature .description-num>h2,
+.temperature-mobile .description-num>h2 {
   font-weight: bolder;
   font-size: 50px;
   width: fit-content;

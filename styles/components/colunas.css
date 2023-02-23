@@ -53,7 +53,7 @@
   box-shadow: 0px 1px 13px -1px rgba(0, 0, 0, 0.1);
 }
 
-.lidas>h1 {
+.lidas>h2 {
   font-weight: bolder;
 }
 
@@ -65,7 +65,7 @@
   margin-bottom: 20px;
 }
 
-.lidas .container-lida>.lida>h1 {
+.lidas .container-lida>.lida>h2 {
   background-color: var(--color-2);
   color: var(--color-1);
   font-weight: bold;
