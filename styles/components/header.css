@@ -41,7 +41,7 @@
 }
 
 .header .cover {
-  background-image: url(../../assets/portada);
+  background-image: url("../../assets/portada.png");
   background-size: cover;
   color: var(--color-0);
 }

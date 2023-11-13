@@ -28,7 +28,7 @@
 .categorias-card .category {
   border-radius: 30px;
   padding: 10px 0 0;
-  background-image: url('../../assets/woman-vacune');
+  background-image: url('../../assets/woman-vacune.png');
   background-size: cover;
   width: min(320px, 100%);
   display: flex;
@@ -38,16 +38,16 @@
 }
 
 .categorias .category:nth-child(2) {
-  background-image: url('../../assets/metro');
+  background-image: url('../../assets/metro.png');
 }
 
 .categorias .category:nth-child(4) {
-  background-image: url('../../assets/stranger-things');
+  background-image: url('../../assets/stranger-things.png');
   margin-bottom: 25px;
 }
 
 .categorias-card .category {
-  background-image: url('../../assets/stranger-things');
+  background-image: url('../../assets/stranger-things.png');
 }
 
 .categorias .category-btns button,
@@ -192,7 +192,6 @@
     display: none;
   }
 }
-
 
 
 @media screen and (min-width:800px) {

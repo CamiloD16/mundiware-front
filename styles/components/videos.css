@@ -38,7 +38,7 @@
 
 .videos-section .container-video-related>.video,
 .videos-section .videos-related>.video {
-  background-image: url('../../assets/videos-section');
+  background-image: url('../../assets/videos-section.png');
   background-size: cover;
   height: 300px;
   border-radius: 30px;
@@ -80,19 +80,19 @@
 }
 
 .videos-section .videos-related>.video:first-child {
-  background-image: url('../../assets/maroon');
+  background-image: url('../../assets/maroon.png');
 }
 
 .videos-section .videos-related>.video:nth-child(2) {
-  background-image: url('../../assets/britney');
+  background-image: url('../../assets/britney-min.png');
 }
 
 .videos-section .videos-related>.video:nth-child(3) {
-  background-image: url('../../assets/lil');
+  background-image: url('../../assets/lil.png');
 }
 
 .videos-section .videos-related>.video:nth-child(4) {
-  background-image: url('../../assets/mariah');
+  background-image: url('../../assets/mariah.png');
 }
 
 .videos-section .videos-related .video>h2 {

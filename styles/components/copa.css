@@ -15,22 +15,22 @@
 }
 
 .copa .categorias-card>.first {
-  background-image: url('../../assets/selecao');
+  background-image: url('../../assets/selecao.png');
   height: auto;
 }
 
 .copa .categorias-card>.second {
-  background-image: url('../../assets/messi');
+  background-image: url('../../assets/messi.png');
   height: auto;
 }
 
 .copa .categorias-card>.third {
-  background-image: url('../../assets/vini');
+  background-image: url('../../assets/vini.png');
   height: auto;
 }
 
 .copa .categorias-card>.fourth {
-  background-image: url('../../assets/reporter');
+  background-image: url('../../assets/reporter.png');
   height: auto;
 }
 
